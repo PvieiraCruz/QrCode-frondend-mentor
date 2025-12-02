@@ -1,10 +1,43 @@
 
 body {
+    margin: 0px;
     background-color: rgb(213, 225, 239);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
 }
 
 #card {
     width: 320px;
     height: 499px;
     background-color: white;
+    border-radius: 15px;
 }
+
+img {
+    height: 288px;
+    width: 288px;
+    border-radius: 15px;
+}
+
+#image {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+h1 {
+    line-height: 120%;
+    font-size: 22px;
+    color: rgb(31, 49, 79);
+    text-align: center;
+    font-weight: 900;
+}
+
+p {
+    line-height: 140%;
+    font-size: 15px;
+    color: rgb(104, 119, 141);
+    text-align: center;
+    font: 300;
